@@ -26,6 +26,7 @@ public class Demo03 extends Frame
         box1.add(Box.createHorizontalGlue());
         box1.add(btn2);
         box2.add(btn3);
+        box2.add(Box.createHorizontalStrut(30));
         box2.add(btn4);
         box3.add(box1);
         box3.add(box2);
