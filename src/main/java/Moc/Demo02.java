@@ -15,8 +15,9 @@ public class Demo02 extends Frame
         this.setSize(600, 400);
         this.setLocation(200, 200);
 
-        // 设置组件摆放规则
-        this.setLayout(new BorderLayout());
+        // 设置组件摆放规则，默认布局方式，东西南北中
+        /*this.setLayout(new BorderLayout());*/
+        this.setLayout(new FlowLayout());
 
         // 添加按钮
         this.add(btn1, BorderLayout.NORTH);
