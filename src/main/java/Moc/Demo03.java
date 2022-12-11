@@ -23,6 +23,7 @@ public class Demo03 extends Frame
         this.setSize(600, 400);
 
         box1.add(btn1);
+        box1.add(Box.createHorizontalGlue());
         box1.add(btn2);
         box2.add(btn3);
         box2.add(btn4);
